@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio_arreglos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="container">
+    <label for="nueva_tarea">Nueva Tarea:</label>
+    <input type="text" id="nueva_tarea">
+    <button type="button" id="boton_agregar">Agregar</button>
+
+    <div>
+        Total: <span id="total_tareas">0</span> |
+        Realizadas: <span id="tareas_realizadas">0</span>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tarea</th>
+                <th>Completada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="lista_tareas">
+        </tbody>
+    </table>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
